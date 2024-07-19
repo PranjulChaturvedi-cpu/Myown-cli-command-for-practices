@@ -1,0 +1,132 @@
+Here's a list of commonly used command-line (cmd) commands along with their usage:
+
+### File and Directory Commands
+
+1. **`cd`**: Change directory.
+   - Usage: `cd [directory]`
+   - Example: `cd C:\Users`
+
+2. **`dir`**: List directory contents.
+   - Usage: `dir [directory]`
+   - Example: `dir C:\Users`
+
+3. **`md` or `mkdir`**: Create a new directory.
+   - Usage: `md [directory]`
+   - Example: `md new_folder`
+
+4. **`rd` or `rmdir`**: Remove a directory.
+   - Usage: `rd [directory]`
+   - Example: `rd old_folder`
+
+5. **`copy`**: Copy files.
+   - Usage: `copy [source] [destination]`
+   - Example: `copy file.txt D:\Backup`
+
+6. **`xcopy`**: Copy files and directories, including subdirectories.
+   - Usage: `xcopy [source] [destination] /s /e`
+   - Example: `xcopy C:\Data D:\Backup /s /e`
+
+7. **`del` or `erase`**: Delete files.
+   - Usage: `del [file]`
+   - Example: `del file.txt`
+
+8. **`move`**: Move or rename files or directories.
+   - Usage: `move [source] [destination]`
+   - Example: `move file.txt D:\Documents`
+
+### System Commands
+
+9. **`cls`**: Clear the screen.
+   - Usage: `cls`
+
+10. **`echo`**: Display a message or turn command echoing on or off.
+    - Usage: `echo [message]` or `echo [on|off]`
+    - Example: `echo Hello, World!`
+
+11. **`shutdown`**: Shut down or restart the computer.
+    - Usage: `shutdown [options]`
+    - Example: `shutdown /s /t 60` (shutdown in 60 seconds)
+
+12. **`tasklist`**: Display a list of currently running processes.
+    - Usage: `tasklist`
+
+13. **`taskkill`**: Terminate a running process.
+    - Usage: `taskkill /PID [process_id] /F`
+    - Example: `taskkill /PID 1234 /F`
+
+14. **`systeminfo`**: Display detailed configuration information about the computer.
+    - Usage: `systeminfo`
+
+### Networking Commands
+
+15. **`ipconfig`**: Display IP configuration information.
+    - Usage: `ipconfig`
+    - Example: `ipconfig /all`
+
+16. **`ping`**: Test connectivity to a network device.
+    - Usage: `ping [hostname or IP address]`
+    - Example: `ping google.com`
+
+17. **`tracert`**: Trace the route packets take to a network host.
+    - Usage: `tracert [hostname or IP address]`
+    - Example: `tracert google.com`
+
+18. **`netstat`**: Display network connections, routing tables, and more.
+    - Usage: `netstat`
+    - Example: `netstat -a`
+
+19. **`nslookup`**: Query the DNS to obtain domain name or IP address mapping.
+    - Usage: `nslookup [hostname]`
+    - Example: `nslookup google.com`
+
+### Disk Commands
+
+20. **`chkdsk`**: Check a disk and display a status report.
+    - Usage: `chkdsk [drive:] [options]`
+    - Example: `chkdsk C: /f`
+
+21. **`diskpart`**: Manage disk partitions.
+    - Usage: `diskpart`
+
+22. **`format`**: Format a disk for use with Windows.
+    - Usage: `format [drive:] [options]`
+    - Example: `format D: /FS:NTFS`
+
+### Other Useful Commands
+
+23. **`attrib`**: Display or change file attributes.
+    - Usage: `attrib [attributes] [file]`
+    - Example: `attrib +r -h file.txt`
+
+24. **`fc`**: Compare two files and display the differences.
+    - Usage: `fc [file1] [file2]`
+    - Example: `fc file1.txt file2.txt`
+
+25. **`find`**: Search for a text string in a file or files.
+    - Usage: `find "[text]" [file]`
+    - Example: `find "hello" file.txt`
+
+26. **`powershell`**: Launch Windows PowerShell.
+    - Usage: `powershell`
+
+27. **`regedit`**: Open the Registry Editor.
+    - Usage: `regedit`
+
+28. **`schtasks`**: Schedule a task to run at a specified time.
+    - Usage: `schtasks /create /tn [taskname] /tr [taskrun] /sc [schedule]`
+    - Example: `schtasks /create /tn "Backup" /tr "backup.exe" /sc daily /st 12:00`
+
+29. **`set`**: Display, set, or remove environment variables.
+    - Usage: `set [variable=[string]]`
+    - Example: `set PATH=C:\NewPath;%PATH%`
+
+30. **`title`**: Set the window title for the command prompt.
+    - Usage: `title [text]`
+    - Example: `title My Command Prompt`
+
+31. **`tree`**: Display directory structure of a drive or path.
+    - Usage: `tree [drive:] [path]`
+    - Example: `tree C:\`
+
+This list covers many of the basic and essential commands
+used in the Windows command prompt. Each command can have multiple options and switches; you can usually get more detailed usage information by typing the command followed by `/?` (e.g., `copy /?`).
