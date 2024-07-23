@@ -1,0 +1,30 @@
+Q.1- How many ways can you operate computer?
+Ans: we've following two ways to operate computers:
+  A. GUI - Graphical User Interface - Using certain graphics     (images,      animation, others), you can operate computer.others word: we      communicate with computer just by seeing and clicking those      application or with help of application, wecommunicate to the      computer.
+
+GUI:	                                      HW(Binary Lang: 101010
+USER--->App(VLC/Whatsapp/Notepad)--->OS---CLI-->| RAM + PROCESSOR|
+
+  B. CLI - Command Line Interface: using commands, we communite with      computer, it introduced when computer came to market first time.
+   Why CLI as A Developer:
+   1. As compare to GUI, your CLI is much faster.
+
+CLI: 
+                                          HW(Binary Lang)
+USER----->CLI(Commands in English)----->| RAM + PROCESSOR |
+
+  2. As a backend developer, we must have knowledge of CLI as on     production logs msg and other important msg are being displayed in     form CLI.
+  3. if you want to work with server you must have knowledge of cli.
+
+
+Where does it exist in your computer: how to open cli(command prompt)
+to open: Window + R(RUN) --> type cmd and hit enter.
+
+Q.2: Once you know CLI is better for developer, what are the common operations/task, you commonly do with computer using GUI?
+   1. open folder, open any application
+   2. install application, uninstall application
+   3. copy folder and move folder
+   4. watch videos, play songs
+
+all above mentions task, you can easily do with CLI using commands(set of english words).
+
