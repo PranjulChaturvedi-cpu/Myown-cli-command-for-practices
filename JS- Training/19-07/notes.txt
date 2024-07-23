@@ -1,0 +1,9 @@
+++      --
+post
+a++     b--
+
+display first then inc/decodeURI
+pre
+
+++a     ++b
+inc/dec first then display
