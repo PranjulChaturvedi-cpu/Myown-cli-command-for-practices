@@ -1,0 +1,266 @@
+C:\Users\ADMIN>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Users\ADMIN
+
+               6 File(s)          6,495 bytes
+              23 Dir(s)  122,979,393,536 bytes free
+
+C:\Users\ADMIN>cd Downlaods
+The system cannot find the path specified.
+
+C:\Users\ADMIN>cd Downloads
+
+C:\Users\ADMIN\Downloads>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Users\ADMIN\Downloads
+
+             161 File(s)  2,540,242,300 bytes
+              16 Dir(s)  122,982,326,272 bytes free
+
+C:\Users\ADMIN\Downloads>video.mp4
+
+C:\Users\ADMIN\Downloads>Resume.pdf
+
+C:\Users\ADMIN\Downloads>cd .
+
+C:\Users\ADMIN\Downloads>cd ..
+
+C:\Users\ADMIN>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Users\ADMIN
+
+               6 File(s)          6,495 bytes
+              23 Dir(s)  123,007,246,336 bytes free
+
+C:\Users\ADMIN>cd Desktop
+
+C:\Users\ADMIN\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Users\ADMIN\Desktop
+
+               5 File(s)    129,977,585 bytes
+              10 Dir(s)  123,007,246,336 bytes free
+
+C:\Users\ADMIN\Desktop>cd Javascript
+
+C:\Users\ADMIN\Desktop\Javascript>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Users\ADMIN\Desktop\Javascript
+
+               0 File(s)              0 bytes
+               4 Dir(s)  123,006,689,280 bytes free
+
+C:\Users\ADMIN\Desktop\Javascript>cd "Day 1"
+
+C:\Users\ADMIN\Desktop\Javascript\Day 1>cd ../../..
+
+C:\Users\ADMIN>cd Desktop
+
+C:\Users\ADMIN\Desktop>cd Javascript/"Day 1"
+
+C:\Users\ADMIN\Desktop\Javascript\Day 1>cd ../../../"Downloads
+
+C:\Users\ADMIN\Downloads>cd ..
+
+C:\Users\ADMIN>cd ..
+
+C:\Users>cd ..
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               7 Dir(s)  123,006,525,440 bytes free
+
+C:\>k:
+
+K:\>dir
+ Volume in drive K is New Volume
+ Volume Serial Number is 0881-832F
+
+ Directory of K:\
+
+               2 File(s)          1,579 bytes
+               8 Dir(s)  45,790,355,456 bytes free
+
+K:\>c:
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               7 Dir(s)  123,005,259,776 bytes free
+
+C:\>mkdir Demo
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               8 Dir(s)  123,006,681,088 bytes free
+
+C:\>rmdir Demo
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               7 Dir(s)  123,006,353,408 bytes free
+
+C:\>mkdir Demo
+
+C:\>cd Demo
+
+C:\Demo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Demo
+
+               0 File(s)              0 bytes
+               2 Dir(s)  123,005,526,016 bytes free
+
+C:\Demo>echo Welcome to Full Stack Web Development
+Welcome to Full Stack Web Development
+
+C:\Demo>echo Welcome to Full Stack Web Development > notes.txt
+
+C:\Demo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Demo
+
+               1 File(s)             40 bytes
+               2 Dir(s)  123,006,386,176 bytes free
+
+C:\Demo>notepad notes.txt
+
+C:\Demo>echo This is CLI Session > notes.txt
+
+C:\Demo>notepad notes.txt
+
+C:\Demo>echo Welcome to Full Stack Web Development > notes.txt
+
+C:\Demo>echo This is CLI Session >> notes.txt
+
+C:\Demo>notepad notes.txt
+
+C:\Demo>cd ..
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               8 Dir(s)  123,007,086,592 bytes free
+
+C:\>rmdir Demo
+The directory is not empty.
+
+C:\>rd -s Demo
+The system cannot find the file specified.
+The directory is not empty.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               8 Dir(s)  123,006,160,896 bytes free
+
+C:\>rd Demo
+The directory is not empty.
+
+C:\>remdir Demo
+'remdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>rd -s -q Demo
+The system cannot find the file specified.
+The system cannot find the file specified.
+The directory is not empty.
+
+C:\>rd -d Demo
+The system cannot find the file specified.
+The directory is not empty.
+
+C:\>rmdir -s Demo
+The system cannot find the file specified.
+The directory is not empty.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               8 Dir(s)  123,006,332,928 bytes free
+
+C:\>cd Demo
+
+C:\Demo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Demo
+
+               1 File(s)             62 bytes
+               2 Dir(s)  123,006,328,832 bytes free
+
+C:\Demo>delete notes.txt
+'delete' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Demo>del notes.txt
+
+C:\Demo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\Demo
+
+               0 File(s)              0 bytes
+               2 Dir(s)  123,005,370,368 bytes free
+
+C:\Demo>cd ..
+
+C:\>rmdir Demo
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B064-8E67
+
+ Directory of C:\
+
+               0 File(s)              0 bytes
+               7 Dir(s)  123,005,370,368 bytes free
+
+C:\>
